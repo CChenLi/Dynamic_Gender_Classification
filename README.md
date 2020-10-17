@@ -1,6 +1,7 @@
 # Dynamic Gender Classification
 
-This App takes real-time video captured by camera and makes gender prediction. This is a philosophical model. The model were trained on a generated dataset, where datapoint were trained to approximate the apperance of human, and applied on real human.
+- This App takes real-time video captured by camera and makes gender prediction. 
+- This is a philosophical model. The model were trained on a generated dataset, where datapoint were meant to approximate the apperance of human, yet applied on real human.
 
 > Acknowledgement:
 >> This project relied on the framework developmed by [sayaleepote](https://github.com/sayaleepote)
@@ -9,6 +10,7 @@ This App takes real-time video captured by camera and makes gender prediction. T
 
 ## Build with
 - The model was trained on [Microsoft Custom Vision](https://www.customvision.ai/)
+- The model was deployed through [CoreML](https://developer.apple.com/documentation/coreml)
 - Dataset were provided by [wao.ai](wao.ai)
 
 ## Example from previous static version
@@ -17,5 +19,19 @@ This App takes real-time video captured by camera and makes gender prediction. T
 ## Example of current dynamic version
 ![RPReplay-Final1602915161](https://user-images.githubusercontent.com/63531857/96329989-b5bf6680-1006-11eb-9d7f-963aba77527b.gif)
 
-## Build with
-The model was trained on [Microsoft Custom Vision](https://www.customvision.ai/)
+## Build
+- make sure you have xcode toolkit availiable
+```
+xcode-select --install
+```
+- get the source code and start build session
+```
+git clone https://github.com/CChenLi/Dynamic_Gender_Classification
+cd Dynamic_Gender_Classification
+open ./CustomVisionMicrosoftToCoreML.xcodeproj
+```
+- select the device or virtual device you gonna build the model
+- before click the "play" botton, , make sure add your developer team and sign to trust the projectin `Preference`
+
+
+
