@@ -13,7 +13,6 @@
 		4829C79620E54A1800F77F34 /* CustomVisionMicrosoftToCoreML.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4829C79420E54A1800F77F34 /* CustomVisionMicrosoftToCoreML.xcdatamodeld */; };
 		4829C79820E54A1900F77F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4829C79720E54A1900F77F34 /* Assets.xcassets */; };
 		4829C79B20E54A1900F77F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4829C79920E54A1900F77F34 /* LaunchScreen.storyboard */; };
-		4829C7A320E54AC100F77F34 /* HandSigns.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4829C7A220E54AC100F77F34 /* HandSigns.mlmodel */; };
 		7B44D756253ABAD600B297B2 /* AutoML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7B44D755253ABAD600B297B2 /* AutoML.mlmodel */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		4829C79720E54A1900F77F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4829C79A20E54A1900F77F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4829C79C20E54A1900F77F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4829C7A220E54AC100F77F34 /* HandSigns.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandSigns.mlmodel; sourceTree = SOURCE_ROOT; };
 		7B44D755253ABAD600B297B2 /* AutoML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = AutoML.mlmodel; path = aa5ca8988bc04a60a38b5ec980b8e346.CoreML/AutoML.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -62,7 +60,6 @@
 			children = (
 				4829C78D20E54A1800F77F34 /* AppDelegate.swift */,
 				4829C78F20E54A1800F77F34 /* ViewController.swift */,
-				4829C7A220E54AC100F77F34 /* HandSigns.mlmodel */,
 				7B44D755253ABAD600B297B2 /* AutoML.mlmodel */,
 				4829C79120E54A1800F77F34 /* Main.storyboard */,
 				4829C79720E54A1900F77F34 /* Assets.xcassets */,
@@ -144,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4829C7A320E54AC100F77F34 /* HandSigns.mlmodel in Sources */,
 				4829C79020E54A1800F77F34 /* ViewController.swift in Sources */,
 				7B44D756253ABAD600B297B2 /* AutoML.mlmodel in Sources */,
 				4829C78E20E54A1800F77F34 /* AppDelegate.swift in Sources */,

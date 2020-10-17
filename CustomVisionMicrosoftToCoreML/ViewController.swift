@@ -79,7 +79,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
                 default:
                     break
                 }
-                self.predictionLabel.text = predictionString + "(\(firstResult.confidence))"
+                //self.predictionLabel.text = predictionString + " Confidience: " + "(\(firstResult.confidence))"
+                self.predictionLabel.text = String(format: "  (%.2f) %@", firstResult.confidence, predictionString)
             }
         }
 
