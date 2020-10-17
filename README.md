@@ -8,6 +8,9 @@
 >> This is Chen Li's first swift Appliction, pure learning purpose. The first picture is a photo of Chen Li, permission of useage authorized.
 >> rest of the pictures were randomly collected by Chen Li through Google search. If you are the owner and feel offensed, please contact, and the demo will be replaced ASAP. The project is still under construction, some issues regarding data conversion are yet to be solved, which has affected the accuracy of the model. Most of the problems are due to the fact that *Chen Li* has just started learning of Swift <u>few hours ago</u>. Hopefully, these problems will be resolved soon.
 
+## Example of current dynamic version
+![RPReplay-Final1602915161](https://user-images.githubusercontent.com/63531857/96329989-b5bf6680-1006-11eb-9d7f-963aba77527b.gif)
+
 ## Build with
 - The model was trained on [Microsoft Custom Vision](https://www.customvision.ai/)
 - The model was deployed through [CoreML](https://developer.apple.com/documentation/coreml)
@@ -27,8 +30,6 @@
 ## Example from previous static version
 <img src="https://user-images.githubusercontent.com/63531857/96330094-75141d00-1007-11eb-887e-835d3cba3e8e.jpg" width="60%">
 
-## Example of current dynamic version
-![RPReplay-Final1602915161](https://user-images.githubusercontent.com/63531857/96329989-b5bf6680-1006-11eb-9d7f-963aba77527b.gif)
 
 ## Build
 - make sure you have xcode toolkit availiable
