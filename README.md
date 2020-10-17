@@ -21,10 +21,9 @@
   while IFS= read line
   do
 	  cp "$line" male_dir
-  done <"$file"
+  done <"$file"   			#which really save Chen's day
   ```
-  what a nice day!
-
+  
 ## Example from previous static version
 <img src="https://user-images.githubusercontent.com/63531857/96330094-75141d00-1007-11eb-887e-835d3cba3e8e.jpg" width="60%">
 
