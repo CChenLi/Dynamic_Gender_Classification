@@ -14,7 +14,7 @@
 - Dataset were provided by [wao.ai](wao.ai)
   - the dataset were 2000 generated image all in the same file, with a csv file to denote label. Unfortunately, Custom Vision doesn't support csv labeling,
   which means Chen Li probablity have to label them by hand or ask his friend to do so.
-  - However, Chen Li has taken classk with [Paul Eggert](https://samueli.ucla.edu/people/paul-eggert/), the G.O.A.T., so he write a simple bash code to help him
+  - However, Chen Li has taken classk with [Paul Eggert](https://samueli.ucla.edu/people/paul-eggert/), the G.O.A.T., so he wrote a simple bash code to help him
   ```
   #!/usr/bin/env bash
   file="male.csv"
