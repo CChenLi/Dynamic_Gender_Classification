@@ -9,5 +9,4 @@ This App takes real-time video captured by camera and makes gender prediction.
 ## Build with
 The model was trained on [Microsoft Custom Vision](https://www.customvision.ai/)
 
-Short working demo of the app:<br>
-![finalhandsigns](https://user-images.githubusercontent.com/14230368/42214122-3b65ef56-7ed8-11e8-9643-e5659f7b96ce.gif)
+![RPReplay-Final1602915161](https://user-images.githubusercontent.com/63531857/96329989-b5bf6680-1006-11eb-9d7f-963aba77527b.gif)
