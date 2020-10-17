@@ -1,6 +1,6 @@
 <img align="right" src="https://user-images.githubusercontent.com/63531857/96329989-b5bf6680-1006-11eb-9d7f-963aba77527b.gif"/>
-# Dynamic Gender Classification
 
+# Dynamic Gender Classification
 
 - This App takes real-time video captured by camera and makes gender prediction. 
 - This is a philosophical model. The model were trained on a generated dataset, where datapoint were meant to approximate the apperance of human, yet applied on real human.
