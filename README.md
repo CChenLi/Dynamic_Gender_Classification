@@ -1,10 +1,37 @@
-# CustomVisionMicrosoftToCoreMLDemoApp
-This app recognises 3 hand signs - fist, victory sign and high five hand with live feed camera. It uses a HandSigns.mlmodel which has been trained using <a href="https://customvision.ai/">Custom Vision</a> from Microsoft.
-<br><br>
-<b>System Requirements:</b>
-1. XCode 9.0 and above <br>
-2. iPhone with iOS 11.0 and above <br>
-Note: This demo app won't work on a simultaor as it uses live feed from camera for live detection of hand signs <br>
-<br><br>
-Short working demo of the app:<br>
-![finalhandsigns](https://user-images.githubusercontent.com/14230368/42214122-3b65ef56-7ed8-11e8-9643-e5659f7b96ce.gif)
+# Dynamic Gender Classification
+
+- This App takes real-time video captured by camera and makes gender prediction. 
+- This is a philosophical model. The model were trained on a generated dataset, where datapoint were meant to approximate the apperance of human, yet applied on real human.
+
+> Acknowledgement:
+>> This project relied on the framework developmed by [sayaleepote](https://github.com/sayaleepote)
+>> This is Chen Li's first swift Appliction, pure learning purpose. The first picture is the phone to Chen Li, permission of useage authorized.
+>> rest of the pictures were randomly collected by Chen Li through Google search. If you are the owner and feel offensed, please contact, and the demo will be replaced ASAP. The project is still under construction, some issues regarding data conversion are yet to be solved, which has affected the accuracy of the model. Most of the problems are due to the fact that *Chen Li* has just started learning of Swift <u>few hours ago</u>. Hopefully, these problems will be resolved soon.
+
+## Build with
+- The model was trained on [Microsoft Custom Vision](https://www.customvision.ai/)
+- The model was deployed through [CoreML](https://developer.apple.com/documentation/coreml)
+- Dataset were provided by [wao.ai](wao.ai)
+
+## Example from previous static version
+<img src="https://user-images.githubusercontent.com/63531857/96330094-75141d00-1007-11eb-887e-835d3cba3e8e.jpg" width="60%">
+
+## Example of current dynamic version
+![RPReplay-Final1602915161](https://user-images.githubusercontent.com/63531857/96329989-b5bf6680-1006-11eb-9d7f-963aba77527b.gif)
+
+## Build
+- make sure you have xcode toolkit availiable
+```
+xcode-select --install
+```
+- get the source code and start build session
+```
+git clone https://github.com/CChenLi/Dynamic_Gender_Classification
+cd Dynamic_Gender_Classification
+open ./CustomVisionMicrosoftToCoreML.xcodeproj
+```
+- select the device or virtual device you gonna build the model
+- before click the "play" botton, , make sure add your developer team and sign to trust the projectin `Preference`
+
+
+
