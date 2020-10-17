@@ -7,9 +7,9 @@
 
 
 ## Acknowledgement:
->> This project relied on the framework developmed by [sayaleepote](https://github.com/sayaleepote)
->> This is Chen Li's first swift Appliction, pure learning purpose. The first picture is a photo of Chen Li, permission of useage authorized.
->> rest of the pictures were randomly collected by Chen Li through Google search. If you are the owner and feel offensed, please contact, and the demo will be replaced ASAP. The project is still under construction, some issues regarding data conversion are yet to be solved, which has affected the accuracy of the model. Most of the problems are due to the fact that *Chen Li* has just started learning of Swift <u>few hours ago</u>. Hopefully, these problems will be resolved soon.
+> This project relied on the framework developmed by [sayaleepote](https://github.com/sayaleepote)
+> This is Chen Li's first swift Appliction, pure learning purpose. The first picture is a photo of Chen Li, permission of useage authorized.
+> rest of the pictures were randomly collected by Chen Li through Google search. If you are the owner and feel offensed, please contact, and the demo will be replaced ASAP. The project is still under construction, some issues regarding data conversion are yet to be solved, which has affected the accuracy of the model. Most of the problems are due to the fact that *Chen Li* has just started learning of Swift <u>few hours ago</u>. Hopefully, these problems will be resolved soon.
 
 
 
