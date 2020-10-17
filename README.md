@@ -45,7 +45,7 @@ cd Dynamic_Gender_Classification
 open ./CustomVisionMicrosoftToCoreML.xcodeproj
 ```
 - select the device or virtual device you gonna build the model
-- before click the "play" botton, , make sure add your developer team and sign to trust the projectin `Preference`
+- before click the `play` botton, make sure add your developer team and sign to trust the projectin in `Preference`
 
 
 
